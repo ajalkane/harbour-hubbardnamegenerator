@@ -29,15 +29,19 @@ Page {
             TextArea {
                 readOnly: true
                 width: parent.width
-                text: qsTr("L. Ron Hubbard name generator creates name by following rules: "
-                         + "Take the first character of first name, three first characters of second name "
-                         + "and append the last name."
-                         + "\n\n"
-                         + "For example Lafayette Ronald Hubbard becomes L. Ron Hubbard"
-                         + "\n\n"
-                         + "Author: Arto Jalkanen (ajalkane@gmail.com)"
-                         + "\n\n"
-                         + "This software is public domain")
+                text: qsTr(
+                          "L. Ron Hubbard name generator creates name by following rules: "
+                        + "Take the first character of first name, three first characters of second name "
+                        + "and append the last name."
+                        + "\n\n"
+                        + "For example Lafayette Ronald Hubbard becomes L. Ron Hubbard"
+                        + "\n\n"
+                        + "Author: Arto Jalkanen (ajalkane@gmail.com)"
+                        + "\n\n"
+                        + "This software is public domain"
+                        + "\n\n"
+                        + "Source code at https://github.com/ajalkane/harbour-hubbardnamegenerator"
+                )
                 wrapMode: Text.WordWrap
             }
         }

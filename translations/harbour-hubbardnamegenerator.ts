@@ -14,7 +14,9 @@ For example Lafayette Ronald Hubbard becomes L. Ron Hubbard
 
 Author: Arto Jalkanen (ajalkane@gmail.com)
 
-This software is public domain</source>
+This software is public domain
+
+Source code at https://github.com/ajalkane/harbour-hubbardnamegenerator</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
